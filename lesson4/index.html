@@ -4,28 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Socks for men</title>
 </head>
+
+<style>
+    .title {
+        background-color: rgb(38, 144, 205);
+        color: white;
+        padding: 10px;
+    }
+    .title2 {
+        background-color: rgb(151, 196, 222);
+        color: #000000;
+        padding: 10px;
+    }
+    .promo {
+        font-size: 120%;
+        color: red;
+    }
+    .promo2 {
+        font-size: 110%;
+        color: rgb(38, 144, 205);
+    }
+</style>
+
 <body>
 
     <header>
-        <h1>My first website</h1>
+        <h1 class="title">What to give a man for Valentine's Day?</h1>
         <nav>
             <ul>
-                <li><a href="https://lms.beetroot.academy/">My link</a></li>
-                <li><a href="#Section1">To section 1</a></li>
-                <li><a href="#Form">To form</a></li>
+                <li><a href="http://127.0.0.1:5500/mylink.html">Choose your color</a></li>
+                <li><a href="#Section1">Product range</a></li>
+                <li><a href="#Form">Promotion</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section id="Section1">
-            <h3>My first image</h3>
-            <img width="250px" src="image/socks.gif" alt="The best present ever">
+            <h3>Socks! The best present ever!</h3>
+            <span>Your man will look awesome in our socks!</span><br>
+            <span>Don't worry, just buy socks!</span><br>
+            <img width="350px" src="image/socks.gif" alt="The best present ever">
             
             <table>
-                <caption>Our offers</caption>
+                <p><caption><span class="promo2">Product range</span></caption></p>
                 <tr>
                     <th>Socks</th>
                     <th>Shower gel</th>
@@ -45,14 +69,21 @@
         <section>
             <form id="Form">
                 <input type="email" placeholder="Write your email">
-                <textarea placeholder="message" name="message" rows="5"></textarea>
+                <textarea placeholder="How many pairs of socks do you need?" name="message" rows="5"></textarea>
                 <button type="submit">Submit></button>
             </form>
         </section>
+
+        <section class="title2">
+            <h3 class="promo">!Promotion!</h3>
+            <h4>Buy <span class="promo">2</span> pairs of socks
+            and <span class="promo">get shower gel</span> as a gift</h4>
+        </section>
+    
     </main>
 
     <footer>
-        <h3>Goodbye!</h3>
+        <p>Posted by: Kate Kobzar<span> &bull; </span><span>Contacts: <a href="katekobzar.kk@gmail.com">katekobzar.kk@gmail.com></a></span></p>
     </footer>
 
 </body>
