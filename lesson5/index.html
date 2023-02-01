@@ -4,9 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration list</title>
 </head>
 <body>
-    <h1>Hello, world</h1>
+    <h1>Registration list</h1>
+
+    <form action="/action_page.php" method="post">
+        <label for="Повне ім'я">Повне ім'я</label>
+        <input type="text" id="Повне ім'я" name="Повне ім'я" required><br>
+    
+        <label for="Email">Email</label>
+        <input type="text" id="Email" name="Email" required><br>
+    
+        <label for="Пароль">Пароль</label>
+        <input type="text" id="Пароль" name="Пароль" required><br>
+    
+        <label for="Пароль ще раз">Пароль ще раз</label>
+        <input type="text" id="Пароль ще раз" name="Пароль ще раз" required><br>
+
+        <p>
+        <span>Стать</span><input type="radio" id="Чоловіча" name="Стать" value="Чоловіча">
+        <label for="Чоловіча">Чоловіча</label>
+        <input type="radio" id="Жіноча" name="Стать" value="Жіноча">
+        <label for="Жіноча">Жіноча</label><br>
+        </p>
+
+        <label for="Вік">Вік</label>
+        <input type="text" id="Вік" name="Вік" required><br>
+
+        <label for="курс">Курс:</label>
+        <select id="Курс" name="Курс" required>
+            <option value="Front-End">Front-End</option>
+            <option value="Back-End">Back-End</option>
+            <option value="Project M">Project M</option>
+            <option value="QA Manual">QA Manual</option>
+        </select>
+
+        <p>
+            <label for="Повна адреса">Повна адреса:</label>
+            <textarea id="Повна адреса" name="Повна адреса" placeholder="Країна, регіон, місто, селище, вулиця" cols="20" rows="5" required></textarea>
+        </p>
+
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1">Я погоджуюсь з обробкою персональних даних</label><br>
+
+        <input type="submit" value="Очистити форму">
+        <input type="submit" value="Зареєструватися">
+
+
+        
+    </form>
+
 </body>
 </html>
